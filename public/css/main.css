@@ -33,6 +33,13 @@ body {
 	line-height: 1;
 }
 
+<style>
+@font-face {
+	font-family: "Noto Serif TC";
+	src: uurl('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
+}
+</style>
+
 ol, ul {
 	list-style: none;
 }
@@ -163,7 +170,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #000000;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Noto Serif TC', serif;
 		font-size: 1rem;
 		font-weight: 300;
 		letter-spacing: 0.0375em;
@@ -200,7 +207,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #000000;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: 'Noto Serif TC', serif;
 		font-weight: 600;
 		letter-spacing: 0.175em;
 		line-height: 1.75;
@@ -214,7 +221,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Noto Serif TC', serif;
 		font-size: 5rem;
 		font-weight: 700;
 		letter-spacing: -0.05em;
@@ -224,24 +231,29 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.25rem;
+		font-family: 'Noto Serif TC', serif;
+		font-size: 2rem;
 		font-weight: 800;
 		margin: 0 0 2rem 0;
 	}
 
 	h3 {
+		font-family: 'Noto Serif TC', serif;
 		font-size: 0.875rem;
 	}
 
 	h4 {
+		font-family: 'Noto Serif TC', serif;
 		font-size: 0.875rem;
 	}
 
 	h5 {
+		font-family: 'Noto Serif TC', serif;
 		font-size: 0.75rem;
 	}
 
 	h6 {
+		font-family: 'Noto Serif TC', serif;
 		font-size: 0.625rem;
 	}
 
@@ -1865,7 +1877,7 @@ input, select, textarea {
 		color: #000000 !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: 'Noto Serif TC', serif;
 		font-size: 0.6rem;
 		font-weight: 600;
 		height: 3rem;
@@ -2141,7 +2153,7 @@ input, select, textarea {
 	label {
 		color: #000000;
 		display: block;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: 'Noto Serif TC', serif;
 		font-size: 0.75rem;
 		font-weight: 600;
 		letter-spacing: 0.175em;
@@ -2206,7 +2218,7 @@ input, select, textarea {
 			color: #000000;
 			cursor: pointer;
 			display: inline-block;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: 'Noto Serif TC', serif;
 			font-size: 1rem;
 			font-weight: 300;
 			letter-spacing: 0.0375em;
@@ -3260,7 +3272,7 @@ input, select, textarea {
 				}
 
 				#wrapper section > header h1 + p {
-					font-family: "Raleway", Helvetica, sans-serif;
+					font-family: 'Noto Serif TC', serif;
 					font-size: 0.8rem;
 					letter-spacing: 0.175em;
 					line-height: 2.5;
