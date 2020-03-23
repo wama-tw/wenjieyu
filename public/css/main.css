@@ -33,13 +33,6 @@ body {
 	line-height: 1;
 }
 
-<style>
-@font-face {
-	font-family: "Noto Serif TC";
-	src: uurl('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
-}
-</style>
-
 ol, ul {
 	list-style: none;
 }
@@ -232,7 +225,7 @@ input, select, textarea {
 
 	h2 {
 		font-family: 'Noto Serif TC', serif;
-		font-size: 2rem;
+		font-size: 3rem;
 		font-weight: 800;
 		margin: 0 0 2rem 0;
 	}
